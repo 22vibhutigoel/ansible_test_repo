@@ -1,0 +1,7 @@
+---
+#install httpd
+- name: install apache 
+  yum:
+    name: httpd
+    state: latest
+ 

@@ -1,0 +1,12 @@
+---
+# tasks file for apache
+# tasks file for apache
+- name: install
+  include: install.yml
+
+- name: configure
+  include:  configure.yml
+
+- name: service 
+  include: service.yml
+

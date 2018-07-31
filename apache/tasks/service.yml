@@ -1,0 +1,4 @@
+---
+#start httpd service 
+- name: start apche service 
+  service: name=httpd state=started
